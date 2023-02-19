@@ -8,6 +8,10 @@ Shell scripts:
 Configuration files:
 - [Deploy web.py on Lighttpd webserver](https://github.com/firefly-cpp/shell-scripts-and-configurations/tree/main/deploy-webpy-on-lighttpd-ubuntu)
 
+Containers:
+- [Alpine Linux container for data science](https://github.com/firefly-cpp/alpine-container-data-science)
+- [Fedora Linux container for data science](https://github.com/firefly-cpp/fedora-container-data-science)
+
 # License
 
 Shield: [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
