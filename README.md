@@ -4,6 +4,7 @@ The repository hosts a collection of shell scripts and several configuration fil
 
 Shell scripts:
 - [Run python scripts](https://github.com/firefly-cpp/shell-scripts-and-configurations/blob/main/run-all-python-scripts-in-folder.sh)
+- [Transfer file via SFTP](https://github.com/firefly-cpp/shell-scripts-and-configurations/blob/main/transfer-file-via-sftp.sh)
 
 Configuration files:
 - [Deploy web.py on Lighttpd webserver](https://github.com/firefly-cpp/shell-scripts-and-configurations/tree/main/deploy-webpy-on-lighttpd-ubuntu)
