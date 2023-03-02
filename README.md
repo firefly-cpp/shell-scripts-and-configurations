@@ -9,9 +9,13 @@ Shell scripts:
 Configuration files:
 - [Deploy web.py on Lighttpd webserver](https://github.com/firefly-cpp/shell-scripts-and-configurations/tree/main/deploy-webpy-on-lighttpd-ubuntu)
 
+Makefiles:
+- [makefile for C++ project](https://github.com/firefly-cpp/shell-scripts-and-configurations/tree/main/makefiles/makefile_c++)
+
 Containers:
 - [Alpine Linux container for data science](https://github.com/firefly-cpp/alpine-container-data-science)
 - [Fedora Linux container for data science](https://github.com/firefly-cpp/fedora-container-data-science)
+- [Nia{Py, AML, Class, ARM} container](https://github.com/firefly-cpp/nia-container)
 
 # License
 
