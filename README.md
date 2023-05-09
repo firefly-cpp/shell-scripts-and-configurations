@@ -11,6 +11,7 @@ Configuration files:
 
 Makefiles:
 - [makefile for C++ project](https://github.com/firefly-cpp/shell-scripts-and-configurations/tree/main/makefiles/makefile_c++)
+- [CMakeLists.txt for C project](https://github.com/firefly-cpp/shell-scripts-and-configurations/tree/main/makefiles/CMakeLists.txt)
 
 Containers:
 - [Alpine Linux container for data science](https://github.com/firefly-cpp/alpine-container-data-science)
