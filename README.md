@@ -18,6 +18,9 @@ Containers:
 - [Fedora Linux container for data science](https://github.com/firefly-cpp/fedora-container-data-science)
 - [Nia{Py, AML, Class, ARM} container](https://github.com/firefly-cpp/nia-container)
 
+Nix:
+- [A basic reproducible data science experiment based on a Nix environment](https://github.com/firefly-cpp/nix-reproducible-experiment)
+
 # License
 
 Shield: [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
