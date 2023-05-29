@@ -23,23 +23,31 @@ TODO
 
 ### Enable firewall
 
-#### Install FirewallD
+#### Install firewalld
 
+```bash
 sudo dnf install firewalld
+```
 
 #### Start service
+```bash
 sudo systemctl start firewalld
 sudo systemctl enable firewalld
+```
 
 #### Add rules
-sudo firewall-cmd --permanent --add-service=http
-sudo firewall-cmd --permanent --add-service=https
+```bash
+sudo firewall-cmd --permanent --add-service=http # support http (port 80)
+sudo firewall-cmd --permanent --add-service=https # support https (port 443)
 
-restart firewall
+systemctl restart firewalld # restart service
+```
 
 ### Test
 
-screenshot
+<p align="center">
+  <img width="200" src="https://raw.githubusercontent.com/firefly-cpp/shell-scripts-and-configurations/main/.github/imgs/fedora-nginx-test.png">
+</p>
 
 ### Edit folder
 Change contents in /usr/share/nginx/html
@@ -47,8 +55,9 @@ Change contents in /usr/share/nginx/html
 ## Edit nginx configuration
 
 ### Check nginx.conf
-
-- cd /etc/nginx.conf
+```bash
+cd /etc/nginx.conf
+```
 
 Check that line: include /etc/nginx/conf.d/*.conf; is enabled.
 

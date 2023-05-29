@@ -8,6 +8,7 @@ Shell scripts:
 
 Configuration files:
 - [Deploy web.py on Lighttpd webserver](https://github.com/firefly-cpp/shell-scripts-and-configurations/tree/main/deploy-webpy-on-lighttpd-ubuntu)
+- [Deploy Nginx on Fedora](https://github.com/firefly-cpp/shell-scripts-and-configurations/tree/main/deploy-nginx-on-fedora)
 
 Makefiles:
 - [makefile for C++ project](https://github.com/firefly-cpp/shell-scripts-and-configurations/tree/main/makefiles/makefile_c++)
