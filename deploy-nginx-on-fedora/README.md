@@ -45,8 +45,10 @@ systemctl restart firewalld # restart service
 
 ### Test
 
+- visit http://127.0.0.1
+
 <p align="center">
-  <img width="200" src="https://raw.githubusercontent.com/firefly-cpp/shell-scripts-and-configurations/main/.github/imgs/fedora-nginx-test.png">
+  <img width="600" src="https://raw.githubusercontent.com/firefly-cpp/shell-scripts-and-configurations/main/.github/imgs/fedora-nginx-test.png">
 </p>
 
 ### Edit folder
