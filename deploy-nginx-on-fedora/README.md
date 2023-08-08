@@ -88,3 +88,9 @@ server {
 	location / { try_files $uri $uri/ =404;}
 }
 ```
+
+### certbot
+
+```bash
+certbot --nginx -d website1.com -d www.website1.com
+```
