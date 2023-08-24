@@ -1,4 +1,4 @@
-# # Install Forgejo container on Fedora Linux
+# Install Forgejo container on Fedora Linux
 
 Forgejo is described as a self-hosted lightweight software forge. Forgejo, a software Fork of Gitea written in Go, is easy to maintain. This small guide presents a few steps for successfully running Forgejo using Podman on Fedora Linux.
 
