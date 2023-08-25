@@ -20,3 +20,12 @@ docker pull codeberg.org/forgejo/forgejo:1.20.3-0
 ```bash
 docker run -p 3000:3000 -v forgejo:/data codeberg.org/forgejo/forgejo:1.20.3-0
 ```
+
+### SSH
+To enable SSH access to Forgejo, define a ``SSH Server Point`` during the initialisation process. For example, to set port 22:
+<img src="../.github/imgs/ssh-server-port.png" />
+
+After initialisation, run the container with the following command:
+```bash
+docker run -p 3000:3000 -p 22:22 -v forgejo:/data codeberg.org/forgejo/forgejo:1.20.3-0
+```
