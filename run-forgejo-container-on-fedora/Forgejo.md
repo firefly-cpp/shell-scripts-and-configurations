@@ -13,12 +13,12 @@ sudo dnf install podman
 ### Pull Docker image
 
 ```bash
-docker pull codeberg.org/forgejo/forgejo:1.20.3-0
+podman pull codeberg.org/forgejo/forgejo:1.20.3-0
 ```
 
 ### Run Docker image
 ```bash
-docker run -p 3000:3000 -v forgejo:/data codeberg.org/forgejo/forgejo:1.20.3-0
+podman run -p 3000:3000 -v forgejo:/data codeberg.org/forgejo/forgejo:1.20.3-0
 ```
 
 ### SSH
@@ -27,17 +27,17 @@ To enable SSH access to Forgejo, define a ``SSH Server Point`` during the initia
 
 After initialisation, run the container with the following command:
 ```bash
-docker run -p 3000:3000 -p 22:22 -v forgejo:/data codeberg.org/forgejo/forgejo:1.20.3-0
+podman run -p 3000:3000 -v forgejo:/data codeberg.org/forgejo/forgejo:1.20.3-0
 ```
 
 ## Data
 ### Local data backup
 To create a local backup of the data, get the container's ID by running the following command:
 ```bash
-docker ps
+podman ps
 ```
     
 Once you have the container's ID, run the following command to copy the data to a local directory:
 ```bash
-docker cp <container_id>:/data /path/to/backup
+podman cp <container_id>:/data /path/to/backup
 ```
