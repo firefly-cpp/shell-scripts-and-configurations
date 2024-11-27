@@ -1,4 +1,13 @@
-# About
+<h1 align="center">
+    shell-scripts-and-configurations
+</h1>
+
+<p align="center">
+    <a href="#-about">🔍 About</a> •
+    <a href="#-license">🔑 License</a>
+</p>
+
+## 🔍 About
 
 The repository hosts a collection of shell scripts and several configuration files I use on my machines and clouds for system administration or data science pipelines.
 
@@ -23,9 +32,10 @@ Containers:
 Nix:
 - [A basic reproducible data science experiment based on a Nix environment](https://github.com/firefly-cpp/nix-reproducible-experiment)
 
-# License
+## 🔑 License
 
-Shield: [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
+Material in this folder is licensed under a
+[Creative Commons Attribution-ShareAlike 4.0 International License][cc-by-sa].
 
 [![CC BY-SA 4.0][cc-by-sa-image]][cc-by-sa]
 
