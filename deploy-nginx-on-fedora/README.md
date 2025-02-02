@@ -73,6 +73,8 @@ server {
 	root /var/www/website1.com;
 	index index.html;
 	server_name website1.com www.website1.com;
+	access_log /var/log/nginx/website1_access.log main;
+	error_log /var/log/nginx/website1_error.log warn;
 	location / { try_files $uri $uri/ =404;}
 }
 ```
